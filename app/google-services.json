@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "10605358673",
+    "project_id": "centrahealthhack"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10605358673:android:bbda73b90aab85d8",
+        "android_client_info": {
+          "package_name": "com.avinashiyer.centrahealthhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10605358673-ipn00665mi6seftolv49vs19buka3ocg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avinashiyer.centrahealthhack",
+            "certificate_hash": "e7b3206db4c2a75dec6efc48b36f4c972f367790"
+          }
+        },
+        {
+          "client_id": "10605358673-2vfj85qh1gs5i4e3kkbeogabmfd7n6h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-HQjbWOmig0C4Jz5qCKEAVXjnYfDJSVk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

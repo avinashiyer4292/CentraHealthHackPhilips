@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fitbit_icon"
+        android:icon="@drawable/pfitbit_icon_36"
+        android:title="Fitbit data"/>
+    <item android:id="@+id/patient_icon"
+        android:icon="@drawable/person_icon_36"
+        android:title="Patient ID"/>
+    <item android:id="@+id/doctor_icon"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="All Doctors"/>
+
+</menu>

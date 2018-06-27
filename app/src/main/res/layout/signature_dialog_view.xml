@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Please sign below"
+        android:layout_marginTop="10dp"
+        android:id="@+id/signturedesc"
+        />
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp"
+        android:background="#FFF"
+        app:penColor="#CECECE"
+        app:penMinWidth="3dp"
+        app:penMaxWidth="7dp"
+        app:clearOnDoubleClick="true"
+        app:velocityFilterWeight="0.9"/>
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/book_button_selector"-->
+        <!--android:text="Sign"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginTop="10dp"-->
+
+        <!--android:id="@+id/signSubmit"/>-->
+
+</LinearLayout>
